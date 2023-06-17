@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+</head>
+<body>
+    <h1>Table Numer 1</h1>
+    <table border="1">
+        <thead>
+            <th>Name</th>
+            <th>Job Title</th>
+            <th>Email</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Huzaima</td>
+                <td>Staff</td>
+                <td>example@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Love</td>
+                <td>Eng</td>
+                <td rowspan="3">example2@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Love</td>
+                <td>Eng</td>
+                <!-- <td>example2@gmail.com</td> -->
+            </tr>
+            <tr>
+                <td>Love</td>
+                <td>Eng</td>
+                <!-- <td>example2@gmail.com</td> -->
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <h1>Table Number 2</h1>
+    <table border="1">
+        <thead>
+            <th rowspan="3">
+                Day
+            </th>
+            <th colspan="4">
+                Seminar
+            </th>
+        <tr>
+            <th colspan="2">
+                Schedule
+            </th>
+            <th rowspan="3">Topic</th>
+        </tr>
+        <tr>
+            <th>
+                Begin
+            </th>
+            <th>
+                End
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">
+                    Monday
+                </td>
+                <td rowspan="2">
+                    8:00 a.m.
+                </td>
+                <td rowspan="2"> 
+                    5:00 p.m.
+                </td>
+                <td>
+                    Introduction to XML
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Validity: DTD and Relax NG
+                </td>
+            </tr>
+                <td rowspan="3">
+                    Tuesday
+                </td>
+                <td>
+                    8:00 a.m.
+                </td>
+                <td> 
+                    5:00 p.m.
+                </td>
+                <td rowspan="2">Introduction to XML</td>
+                <tr>
+                <td>
+                    11:00 a.m.
+                </td>
+                <td>
+                    2:00 p.m.
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        2:00 p.m.
+                    </td>
+                    <td>
+                        5:00 p.m.
+                    </td>
+                    <td>Validity: DTD and Relax NG</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            Wednesday
+                        </td>
+                        <td rowspan="2">
+                            8:00 a.m.
+                        </td>
+                        <td rowspan="2"> 
+                            5:00 p.m.
+                        </td>
+                        <td>
+                            Introduction to XML
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Validity: DTD and Relax NG
+                        </td>
+                    </tr>        
+        </tbody>
+    </table>
+</body>
+</html>
